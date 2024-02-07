@@ -1,6 +1,32 @@
+
 body{ 
     font-family: 'Mona-Sans',sans-serif;
     background-color: #f8f7f4;
-    color:#0D0C22
+    color:#0D0C22;
     }
+
+
+
+
+h2{ 
+    font-family: 'Source Serif 4',sans-serif;
+    letter-spacing: 0.1rem;
+}
     
+    .bg-button{
+    animation: bottone-colorato 32s linear infinite ;
+    }
+
+    @keyframes bottone-colorato {
+        0% { background-color: #ffade0ff; }
+        10% { background-color: #f0b1ecff; }
+        20% { background-color: #ebf0daff; }
+        30% { background-color: #ddd3e8ff; }
+        40% { background-color: #d1bbf2ff; }
+        50% { background-color: #fadf8eff;}
+        60% { background-color: #ffade0ff; }
+        70% { background-color: #f0b1ecff; }
+        80% { background-color: #ebf0daff; }
+        90% { background-color: #ddd3e8ff; }
+        100% { background-color: #ffade0ff; }
+    }
